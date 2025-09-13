@@ -42,10 +42,10 @@ export default function AboutSection() {
               <div>
                 <h3 className="text-2xl font-bold text-white mb-4">Breakfree Digital Agency</h3>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  We're a specialized digital agency with over 5 years of experience building 
+                  We&apos;re a specialized digital agency with over 5 years of experience building 
                   custom software solutions for businesses. Gym Slot represents our passion 
                   project - combining our technical expertise with deep understanding of the 
-                  fitness industry's unique challenges.
+                  fitness industry&apos;s unique challenges.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
                   Our mission is to democratize technology for small fitness businesses, 
@@ -141,7 +141,7 @@ export default function AboutSection() {
               <div className="space-y-4 text-sm text-gray-300">
                 <p>
                   After working with numerous fitness businesses, we noticed a common problem: 
-                  existing solutions were either too expensive, too complex, or didn't integrate 
+                  existing solutions were either too expensive, too complex, or didn&apos;t integrate 
                   well with mobile experiences.
                 </p>
                 <p>
@@ -150,7 +150,7 @@ export default function AboutSection() {
                   computer science degree to operate.
                 </p>
                 <p className="text-gym-accent font-medium">
-                  That's why Gym Slot exists: to level the playing field for independent 
+                  That&apos;s why Gym Slot exists: to level the playing field for independent 
                   fitness professionals.
                 </p>
               </div>
@@ -190,11 +190,11 @@ export default function AboutSection() {
         <div className="text-center">
           <div className="inline-block glass rounded-3xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Let's Build Something Great Together
+              Let&apos;s Build Something Great Together
             </h3>
             <p className="text-gray-300 mb-6">
               Have questions, feedback, or want to discuss custom solutions for your fitness business? 
-              We'd love to hear from you.
+              We&apos;d love to hear from you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 

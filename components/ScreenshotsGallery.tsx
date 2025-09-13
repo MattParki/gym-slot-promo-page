@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Image from 'next/image'
 import { Monitor, Smartphone, Watch, X, ChevronLeft, ChevronRight } from 'lucide-react'
 
@@ -95,6 +95,18 @@ export default function ScreenshotsGallery() {
   // Get current screenshots array
   const currentScreenshots = screenshots[activeTab]
 
+  // Navigation function
+  const navigateImage = useCallback((direction: 'next' | 'prev') => {
+    if (selectedImageIndex === null) return
+    
+    const maxIndex = currentScreenshots.length - 1
+    if (direction === 'next') {
+      setSelectedImageIndex(selectedImageIndex >= maxIndex ? 0 : selectedImageIndex + 1)
+    } else {
+      setSelectedImageIndex(selectedImageIndex <= 0 ? maxIndex : selectedImageIndex - 1)
+    }
+  }, [selectedImageIndex, currentScreenshots.length])
+
   // Handle keyboard navigation
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -123,18 +135,7 @@ export default function ScreenshotsGallery() {
       document.removeEventListener('keydown', handleKeyPress)
       document.body.style.overflow = 'unset'
     }
-  }, [selectedImageIndex])
-
-  const navigateImage = (direction: 'next' | 'prev') => {
-    if (selectedImageIndex === null) return
-    
-    const maxIndex = currentScreenshots.length - 1
-    if (direction === 'next') {
-      setSelectedImageIndex(selectedImageIndex >= maxIndex ? 0 : selectedImageIndex + 1)
-    } else {
-      setSelectedImageIndex(selectedImageIndex <= 0 ? maxIndex : selectedImageIndex - 1)
-    }
-  }
+  }, [selectedImageIndex, navigateImage])
 
   const tabs = [
     { id: 'crm' as const, label: 'CRM Dashboard', icon: Monitor, color: 'from-blue-500 to-cyan-500' },

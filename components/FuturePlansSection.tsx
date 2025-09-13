@@ -219,7 +219,7 @@ export default function FuturePlansSection() {
         <div id="roadmap" className="mb-12">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-white mb-4">Development Roadmap</h3>
-            <p className="text-gray-300">See what's coming next and when to expect new features</p>
+            <p className="text-gray-300">See what&apos;s coming next and when to expect new features</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

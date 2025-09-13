@@ -208,8 +208,8 @@ export default function FeaturesSection() {
                   Shape the Future of Gym Slot
                 </h3>
                 <p className="text-gray-300">
-                  As an early adopter, you'll have direct input on upcoming features and 
-                  get priority access to new capabilities as they're released.
+                  As an early adopter, you&apos;ll have direct input on upcoming features and 
+                  get priority access to new capabilities as they&apos;re released.
                 </p>
               </div>
               
