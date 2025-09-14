@@ -98,12 +98,15 @@ export default function FinalCTASection() {
                     Start Your Free Trial
                     <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                   </a>
-                  <button className="group glass hover:bg-white/20 px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2">
+                  <a 
+                    href="mailto:breakfreedigital@outlook.com?subject=Gym%20Slot%20Demo%20Request&body=Hi%20Matt%20and%20Mikel%2C%0D%0A%0D%0AI%27d%20like%20to%20schedule%20a%20demo%20of%20Gym%20Slot.%20Please%20let%20me%20know%20your%20availability.%0D%0A%0D%0AThanks%21"
+                    className="group glass hover:bg-white/20 px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
+                  >
                     Schedule Demo
                     <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
                     </svg>
-                  </button>
+                  </a>
                 </div>
                 
                 {/* Fine print */}
