@@ -54,34 +54,63 @@ export default function AboutSection() {
                 </p>
               </div>
 
-              {/* Founder info */}
-              <div className="glass rounded-2xl p-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-16 h-16 bg-gradient-to-r from-gym-accent to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    M
+              {/* Founders info */}
+              <div className="space-y-4">
+                {/* Matt */}
+                <div className="glass rounded-2xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-16 h-16 bg-gradient-to-r from-gym-accent to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                      M
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-white mb-2">Matt - Co-Founder & Lead Developer</h4>
+                      <p className="text-gray-300 text-sm leading-relaxed mb-3">
+                        Full-time software developer with a passion for fitness and helping small 
+                        businesses thrive. Matt combines technical expertise with real-world 
+                        understanding of fitness industry challenges.
+                      </p>
+                      <div className="flex items-center gap-4 text-sm">
+                        <a 
+                          href="mailto:breakfreedigital@outlook.com" 
+                          className="flex items-center gap-2 text-gym-accent hover:text-blue-400 transition-colors"
+                        >
+                          <Mail className="w-4 h-4" />
+                          Contact Matt
+                        </a>
+                        <a 
+                          href="https://www.breakfreedigitalagency.com/" 
+                          className="flex items-center gap-2 text-gym-accent hover:text-blue-400 transition-colors"
+                        >
+                          <ExternalLink className="w-4 h-4" />
+                          Visit Agency
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex-1">
-                    <h4 className="font-semibold text-white mb-2">Matt - Founder & Lead Developer</h4>
-                    <p className="text-gray-300 text-sm leading-relaxed mb-3">
-                      Full-time software developer with a passion for fitness and helping small 
-                      businesses thrive. Matt combines technical expertise with real-world 
-                      understanding of fitness industry challenges.
-                    </p>
-                    <div className="flex items-center gap-4 text-sm">
-                      <a 
-                        href="mailto:breakfreedigital@outlook.com" 
-                        className="flex items-center gap-2 text-gym-accent hover:text-blue-400 transition-colors"
-                      >
-                        <Mail className="w-4 h-4" />
-                        Contact Matt
-                      </a>
-                      <a 
-                        href="https://www.breakfreedigitalagency.com/" 
-                        className="flex items-center gap-2 text-gym-accent hover:text-blue-400 transition-colors"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                        Visit Agency
-                      </a>
+                </div>
+
+                {/* Mikel */}
+                <div className="glass rounded-2xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                      M
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-white mb-2">Mikel - Co-Founder & Business Development</h4>
+                      <p className="text-gray-300 text-sm leading-relaxed mb-3">
+                        Software developer with extensive sales background and hands-on fitness experience. 
+                        Mikel brings deep market understanding and customer insights that drive product 
+                        development and business strategy.
+                      </p>
+                      <div className="flex items-center gap-4 text-sm">
+                        <a 
+                          href="mailto:breakfreedigital@outlook.com" 
+                          className="flex items-center gap-2 text-gym-accent hover:text-blue-400 transition-colors"
+                        >
+                          <Mail className="w-4 h-4" />
+                          Contact Mikel
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
