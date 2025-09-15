@@ -13,7 +13,7 @@ export default function Home() {
       <HowItWorksSection />
       <ScreenshotsGallery />
       <FeaturesSection />
-      <FuturePlansSection />
+      {/* <FuturePlansSection /> */}
       <AboutSection />
       <FinalCTASection />
       
