@@ -87,14 +87,14 @@ export default function FuturePlansSection() {
       features: ['Custom logos', 'Brand colors', 'Personalized experience']
     },
     {
-      quarter: 'Q1 2025',
+      quarter: 'Q1 2026',
       title: 'Advanced Analytics',
       description: 'Comprehensive business insights and reporting',
       status: 'planned',
       features: ['Revenue reports', 'Attendance tracking', 'Growth metrics']
     },
     {
-      quarter: 'Q1 2025',
+      quarter: 'Q1 2026',
       title: 'Automation Suite',
       description: 'Smart workflows and automated communications',
       status: 'planned',

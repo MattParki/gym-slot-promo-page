@@ -68,7 +68,7 @@ export default function FeaturesSection() {
       description: 'Comprehensive insights into your business performance and client engagement.',
       benefits: ['Revenue reports', 'Attendance tracking', 'Growth metrics'],
       available: false,
-      comingSoon: 'Q1 2025'
+      comingSoon: 'Q1 2026'
     },
     {
       icon: Clock,
@@ -76,7 +76,7 @@ export default function FeaturesSection() {
       description: 'Smart automation for reminders, follow-ups, and customer communications.',
       benefits: ['Auto reminders', 'Email campaigns', 'Smart notifications'],
       available: false,
-      comingSoon: 'Q1 2025'
+      comingSoon: 'Q1 2026'
     }
   ]
 
