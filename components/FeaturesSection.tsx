@@ -52,7 +52,7 @@ export default function FeaturesSection() {
       description: 'Accept payments directly through the platform with secure Stripe integration.',
       benefits: ['Multiple payment methods', 'Automatic invoicing', 'Revenue tracking'],
       available: false,
-      comingSoon: 'Q2 2024'
+      comingSoon: 'Q4 2025'
     },
     {
       icon: Palette,
@@ -60,7 +60,7 @@ export default function FeaturesSection() {
       description: 'White-label mobile apps with your own branding, colors, and logo.',
       benefits: ['Custom logos', 'Brand colors', 'Personalized experience'],
       available: false,
-      comingSoon: 'Q3 2024'
+      comingSoon: 'Q4 2025'
     },
     {
       icon: Users,
@@ -68,7 +68,7 @@ export default function FeaturesSection() {
       description: 'Comprehensive insights into your business performance and client engagement.',
       benefits: ['Revenue reports', 'Attendance tracking', 'Growth metrics'],
       available: false,
-      comingSoon: 'Q4 2024'
+      comingSoon: 'Q1 2025'
     },
     {
       icon: Clock,

@@ -73,21 +73,21 @@ export default function FuturePlansSection() {
 
   const roadmapItems = [
     {
-      quarter: 'Q2 2024',
+      quarter: 'Q4 2025',
       title: 'Payment Processing',
       description: 'Stripe integration for seamless payment collection',
       status: 'in-development',
       features: ['Multiple payment methods', 'Automatic invoicing', 'Revenue tracking']
     },
     {
-      quarter: 'Q3 2024',
+      quarter: 'Q4 2025',
       title: 'Custom Branding',
       description: 'White-label mobile apps with your branding',
       status: 'planned',
       features: ['Custom logos', 'Brand colors', 'Personalized experience']
     },
     {
-      quarter: 'Q4 2024',
+      quarter: 'Q1 2025',
       title: 'Advanced Analytics',
       description: 'Comprehensive business insights and reporting',
       status: 'planned',
